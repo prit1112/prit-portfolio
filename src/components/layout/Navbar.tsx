@@ -112,7 +112,7 @@ export default function Navbar() {
 
           <div className="flex items-center gap-2">
             <a
-              href="/resume.pdf"
+              href="/resume/Prit_Faldu_Resume.pdf"
               download
               className="hidden sm:inline-flex items-center justify-center rounded-2xl bg-electric px-5 py-2 text-sm font-semibold text-slate-950 shadow-soft-glow transition hover:brightness-105"
             >
@@ -157,7 +157,7 @@ export default function Navbar() {
                   ))}
 
                   <a
-                    href="/resume.pdf"
+                    href="/resume/Prit_Faldu_Resume.pdf"
                     download
                     onClick={() => setOpen(false)}
                     className="mt-2 rounded-2xl bg-electric px-4 py-3 text-center text-sm font-semibold text-[#050816]"
