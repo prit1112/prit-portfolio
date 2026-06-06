@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
   const [message, setMessage] = useState('');
   const [status, setStatus] = useState<'idle' | 'sending' | 'opening' | 'sent'>('idle');
   const [error, setError] = useState<string>('');
-  const [emailError, setEmailError] = useState<string>('');
+
 
   const isValidEmail = (value: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim());
 
