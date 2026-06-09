@@ -83,7 +83,7 @@ export default function Hero() {
               <div className="grid gap-4 sm:grid-cols-3">
                 {[
                   { value: '2+', label: 'Projects' },
-                  { value: '7.72', label: 'CGPA' },
+                  { value: '7.76', label: 'CGPA' },
                   { value: 'MERN', label: 'Stack' },
                 ].map((item) => (
                   <div key={item.label} className="text-center">
